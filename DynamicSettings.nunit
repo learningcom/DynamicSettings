@@ -1,0 +1,9 @@
+﻿<NUnitProject>
+  <Settings activeconfig="Debug" processModel="Default" domainUsage="Default" />
+  <Config name="Debug" binpathtype="Auto" configfile="CurriculumFoundry.nunit.config">
+    <assembly path="DynamicSettings.Tests\bin\Debug\DynamicSettings.Tests.dll" />
+  </Config>
+  <Config name="Release" binpathtype="Auto" configfile="CurriculumFoundry.nunit.config">
+    <assembly path="DynamicSettings.Tests\bin\Release\DynamicSettings.Tests.dll" />
+  </Config>
+</NUnitProject>

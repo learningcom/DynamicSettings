@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <description>$description$</description>
+    <copyright>Copyright 2015</copyright>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="7.0.1" />
+      <dependency id="StackExchange.Redis" version="1.0.488" />
+      <dependency id="YamlDotNet" version="3.7.0" />
+    </dependencies>
+  </metadata>
+</package>

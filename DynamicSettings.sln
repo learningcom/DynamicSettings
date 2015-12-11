@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicSettings", "DynamicSettings\DynamicSettings.csproj", "{97DB2CED-7959-4CBD-AD56-AF22BD24AD14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicSettings.Tests", "DynamicSettings.Tests\DynamicSettings.Tests.csproj", "{8BECF340-363C-4BDE-8AB2-07CCF3A14D79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NUnit", "NUnit", "{D9180017-874C-4E6C-8EFA-E0D022A97927}"
+	ProjectSection(SolutionItems) = preProject
+		DynamicSettings.nunit = DynamicSettings.nunit
+		DynamicSettings.nunit.config = DynamicSettings.nunit.config
+		DynamicSettings.runsettings = DynamicSettings.runsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97DB2CED-7959-4CBD-AD56-AF22BD24AD14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97DB2CED-7959-4CBD-AD56-AF22BD24AD14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97DB2CED-7959-4CBD-AD56-AF22BD24AD14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97DB2CED-7959-4CBD-AD56-AF22BD24AD14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BECF340-363C-4BDE-8AB2-07CCF3A14D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BECF340-363C-4BDE-8AB2-07CCF3A14D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BECF340-363C-4BDE-8AB2-07CCF3A14D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BECF340-363C-4BDE-8AB2-07CCF3A14D79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
