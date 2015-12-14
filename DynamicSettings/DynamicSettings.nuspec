@@ -6,9 +6,11 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <licenseUrl>https://github.com/lcom/DynamicSettings/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/lcom/DynamicSettings</projectUrl>
     <description>$description$</description>
-    <copyright>Copyright 2015</copyright>
+    <copyright>Copyright 2015 Learning.com. All rights reserved.</copyright>
+    <tags>settings configuration</tags>
     <dependencies>
       <dependency id="Newtonsoft.Json" version="7.0.1" />
       <dependency id="StackExchange.Redis" version="1.0.488" />
