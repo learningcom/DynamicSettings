@@ -8,13 +8,8 @@
     <owners>$author$</owners>
     <licenseUrl>https://github.com/learningcom/DynamicSettings/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/learningcom/DynamicSettings</projectUrl>
-    <description>$description$</description>
+    <description>Dynamic Settings is a .NET library that allows you to load application settings from a variety of sources including environment variables, ConfigurationManager, text files, YAML files, and Redis.</description>
     <copyright>Copyright 2015 Learning.com. All rights reserved.</copyright>
     <tags>settings configuration</tags>
-    <dependencies>
-      <dependency id="Newtonsoft.Json" version="7.0.1" />
-      <dependency id="StackExchange.Redis" version="1.0.488" />
-      <dependency id="YamlDotNet" version="3.7.0" />
-    </dependencies>
   </metadata>
 </package>
