@@ -6,10 +6,10 @@
     {
         private FileSettings _fileSettings;
 
-        [TestFixtureSetUp]
+        [SetUp]
         public void SetupTests()
         {
-            _fileSettings = new FileSettings("TestFiles\\", "*.key");
+            _fileSettings = new FileSettings("DynamicSettings.Tests\\TestFiles\\", "*.key");
         }
 
         [Test]

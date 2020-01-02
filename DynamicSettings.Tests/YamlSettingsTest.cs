@@ -7,7 +7,7 @@
         [Test]
         public void GetsSetting()
         {
-            var settings = new YamlSettings("TestFiles\\Config.yaml");
+            var settings = new YamlSettings("DynamicSettings.Tests\\TestFiles\\Config.yaml");
 
             var result = settings.Get("TestSetting1");
 
@@ -17,7 +17,7 @@
         [Test]
         public void GetsAllSettings()
         {
-            var settings = new YamlSettings("TestFiles\\Config.yaml");
+            var settings = new YamlSettings("DynamicSettings.Tests\\TestFiles\\Config.yaml");
 
             var result = settings.GetAll();
 
